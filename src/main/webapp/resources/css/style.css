@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+* {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEC;
+}
+
+input,
+label,
+select,
+button,
+textarea,
+form {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    background: none;
+    line-height: 1;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #397DB1;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #14588C;
+    cursor: pointer;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+/* LOGIN */
+
+#login-form {
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 100px;
+}
+
+#login-form p {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.textfield {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.textfield:hover {
+    box-shadow: 0px 0px 15px 1px rgba(57, 125, 177, 1);
+}
+
+.submitBtn {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #397DB1;
+    border-radius: 5px;
+}
+
+.submitBtn:hover {
+    color: #fff;
+    background-color: #14588C;
+    cursor: pointer;
+}
+
+#registration-link {
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/* PROFILE */
+
+.left-side {
+    float: left;
+}
+
+.right-side {
+    float: right;
+}
+
+#profile-block {
+    border-bottom: 1px solid #397DB1;
+    border-top: 1px solid #397DB1;
+    position: relative;
+}
+
+#profile-title p {
+    font-size: 30px;
+    margin: 0;
+}
+
+#profile-menu {
+    font-size: 18px;
+}
+
+#profile-img > img {
+    width: 100px;
+    height: 100px;
+}
+
+#blogs-block {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+#blogs-menu {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+#blogs-menu li {
+    margin-right: 20px;
+}
+
+#blogs-menu li:last-child {
+    margin-right: 0px;
+}
+
+.blog-header .title {
+    font-size: 22px;
+    margin: 0;
+}
+
+.blog-header .author {
+    font-size: 16px;
+    margin: 0;
+}
+
+.data {
+    font-size: 16px;
+    margin: 0;
+}
+
+.blog-content {
+    margin-top: 7px;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 7px;
+    margin-bottom: 7px;
+}
+
+.blog-footer a {
+    margin-right: 20px;
+}
+
+.blog-footer a:last-child {
+    margin-right: 0px;
+}
+
+/* ADD BLOG */
+
+.blog-title-textfield {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.blog-title-textfield:hover {
+    box-shadow: 0px 0px 15px 1px rgba(57, 125, 177, 1);
+}
+
+.blog-content-textfield {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.blog-content-textfield:hover {
+    box-shadow: 0px 0px 15px 1px rgba(57, 125, 177, 1);
+}
+
+.submit-blog-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #397DB1;
+    border-radius: 5px;
+}
+
+.submit-blog-btn:hover {
+    color: #fff;
+    background-color: #14588C;
+    cursor: pointer;
+}
+
+#log-out-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #397DB1;
+    font-size: 18px;
+}
+
+#log-out-btn:hover {
+    color: #14588C;
+    cursor: pointer;
+}
+
+
+/* SEARCH FORM */
+
+#search-form {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 10px;
+}
+
+#search-form > input {
+    margin: 0;
+    padding: 0;
+    margin-right: -8px;
+    height: 30px;
+}
+
+#search-form #searchBtn {
+    width: 80px;
+}
+
+#search-form #searchArea {
+    width: 220px;
+}
+
+#search-link > img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 10px;
+}
+
